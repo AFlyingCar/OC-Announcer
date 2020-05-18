@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "oc_announcer:blocks/announcer_top",
+    "side": "oc_announcer:blocks/announcer_side",
+    "front": "oc_announcer:blocks/announcer_side"
+  }
+}

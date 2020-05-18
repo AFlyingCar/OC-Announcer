@@ -1,0 +1,16 @@
+[
+{
+  "modid": "oc_announcer",
+  "name": "OC Announcer",
+  "description": "Announcement system for Open Computers.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["AFlyingCar", "Shadowwolf77"],
+  "credits": "The Forge and FML guys, for making Forge. Shadowwolf77 for the art",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

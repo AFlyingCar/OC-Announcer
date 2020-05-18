@@ -1,0 +1,29 @@
+{
+  "forge_maker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "oc_announcer:announcer"
+  },
+  "variants": {
+    "normal": [{
+      "transform": "forge:default-block",
+      "model": "oc_announcer:announcer"
+    }],
+    "inventory": [{
+      "transform": "forge:default-block",
+      "model": "oc_announcer:announcer"
+    }],
+    "facing=north": {
+      "model": "oc_announcer:announcer"
+    },
+    "facing=south": {
+      "model": "oc_announcer:announcer", "y": 180
+    },
+    "facing=west": {
+      "model": "oc_announcer:announcer", "y": 270
+    },
+    "facing=east": {
+      "model": "oc_announcer:announcer", "y": 90
+    }
+  }
+}
