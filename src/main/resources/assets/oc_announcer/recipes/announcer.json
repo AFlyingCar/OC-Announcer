@@ -1,0 +1,35 @@
+{
+  "result": {
+    "item": "oc_announcer:announcer",
+    "meta": 0,
+    "count": 1
+  },
+  "pattern": [
+    "XNX",
+    "MCM",
+    "XYX"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "N": {
+      "item": "minecraft:noteblock",
+      "data": 0
+    },
+    "C": {
+      "item": "opencomputers:component",
+      "data": 0
+    },
+    "M": {
+      "item": "opencomputers:component",
+      "data": 6
+    },
+    "X": {
+      "item": "opencomputers:material",
+      "data": 7
+    },
+    "Y": {
+      "item": "opencomputers:material",
+      "data": 8
+    }
+  }
+}
