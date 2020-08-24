@@ -5,7 +5,6 @@ import com.aflyingcar.oc_announcer.common.block.BlockAnnouncer;
 import com.aflyingcar.oc_announcer.common.tileentity.TileEntityAnnouncer;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.ResourceLocation;
@@ -18,8 +17,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
@@ -82,7 +79,6 @@ public class OCAnnouncer {
         }
     }
 
-    @SideOnly(Side.CLIENT)
     @Mod.EventBusSubscriber
     public static class ClientEventHandler {
         @SubscribeEvent
