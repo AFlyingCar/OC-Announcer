@@ -1,7 +1,6 @@
 package com.aflyingcar.oc_announcer.client;
 
 import com.aflyingcar.oc_announcer.OCAnnouncer;
-import com.aflyingcar.oc_announcer.common.handler.SoundHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.ITickableSound;
 import net.minecraft.client.audio.PositionedSound;
@@ -38,7 +37,7 @@ public class AnnouncementPlayer {
         public boolean isDonePlaying() {
             SoundManager sndMgr = ObfuscationReflectionHelper.getPrivateValue(net.minecraft.client.audio.SoundHandler.class,
                     Minecraft.getMinecraft().getSoundHandler(),
-                    "sndManager");
+                    "field_147694_f");
             return !sndMgr.isSoundPlaying(this);
         }
 
